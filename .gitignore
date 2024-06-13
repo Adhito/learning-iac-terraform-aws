@@ -1,11 +1,14 @@
 .terraform
 
-# Local .terraform directories
+# Ignore Local .terraform directories
 **/.terraform/*
 
-# .tfstate files
+# Ignore .tfstate files
 *.tfstate
 *.tfstate.*
+
+# Ignore .tfstate files
+*.terraform.lock.hcl*
 
 # Crash log files
 crash.log
